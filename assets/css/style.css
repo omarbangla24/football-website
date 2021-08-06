@@ -44,8 +44,12 @@
 
 .banner-img {
     width: 500px;
+    transition: 0ms;
+    transition:all 0.3s ease;
 }
-
+.banner-img:hover{
+    transform: rotateZ(-30deg);
+}
 /* Player List Start here */
 #player-list {
     margin: 70px 0;
